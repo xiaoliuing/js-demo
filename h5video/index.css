@@ -1,0 +1,157 @@
+.container {
+  width: 600px;
+  height: 450px;
+  background: #000;
+  position: relative;
+  margin: 20px auto;
+}
+
+.container video {
+  width: 100%;
+  height: 100%;
+}
+
+.container .modal {
+  position: absolute;
+  width: 100%;
+  height:  100%;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.container .modal .iconfont.iconbofang- {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  margin: auto;
+  color: #ccc;
+  transition: all 1s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.container .modal.pause .iconfont.iconbofang- {
+  transform: scale(2);
+  opacity: 0;
+}
+
+.container .modal .bottom-bar {
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  cursor: auto;
+}
+
+.left {
+  float: left;
+  margin-left: 20px;
+}
+
+.right {
+  float: right;
+  margin-right: 20px;
+}
+
+.container .modal .bottom-bar .iconfont {
+  cursor: pointer;
+  color: #fff;
+  line-height: 48px;
+  font-size: 24px;
+}
+
+.container .modal .bottom-bar .iconfont.iconicon_set_up {
+  position: relative;
+}
+
+.container .modal .bottom-bar .iconfont.iconicon_set_up:hover ul{
+  display: block;
+}
+
+.container .modal .bottom-bar .iconfont.iconicon_set_up ul {
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  background-color: red;
+  bottom: 40px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-left: -8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.container .modal .bottom-bar .iconfont.iconicon_set_up ul li {
+  list-style: none;
+  margin: 0;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+
+.container .modal .bottom-bar .shengyin {
+  width: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: width .5s;
+}
+.container .modal .bottom-bar .shengyin:hover {
+  width: 130px;
+}
+
+.container .modal .bottom-bar .shengyin input {
+  width: 90px;
+  height: 20px;
+  margin: 0 20px 0 0;
+  cursor: pointer;
+}
+
+.red {
+  color: red!important;
+}
+
+.container .modal .bottom-bar .progress-full{
+  position: absolute;
+  cursor: pointer;
+}
+
+.container .modal .bottom-bar .progress {
+  width: 100%;
+  box-sizing: border-box;
+  height: 3px;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+}
+
+.container .modal .bottom-bar .progress .bf-progress {
+  height: 3px;
+  background-color: #3FAB76;
+  top: 0;
+  left: 0;
+
+}
+
+.container .modal .bottom-bar .progress .sw-progress {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #fff;
+  top: -4px;
+}
+
+.container .modal .bottom-bar .time {
+  color: #fff;
+  line-height: 48px;
+  font-size: 12px;
+  margin-left: 10px;
+}

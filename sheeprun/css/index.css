@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #B9F360;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.stage {
+  position: relative;
+  width: 100%;
+  height: 100%
+}
+
+.sheep {
+  position: absolute;
+  background: url(../img/sheep.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  cursor:-webkit-grabbing;
+}
